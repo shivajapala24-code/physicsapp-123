@@ -16,5 +16,5 @@ with col2:
     ma = st.number_input('mass: ',key = 'c')
     h = st.number_input('height: ',key = 'd')
     if st.button('calculate',key = 'xyz'):
-        st.write(f'the kinetic energy is {ma*10*h}')
+        st.write(f'the potential energy is {ma*10*h}')
 
