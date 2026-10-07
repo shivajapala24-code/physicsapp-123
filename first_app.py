@@ -13,7 +13,7 @@ with col1:
 
 with col2:
     m =  st.subheader(':red[potential energy]')
-    m = st.number_input('mass: ',key = 'c')
+    ma = st.number_input('mass: ',key = 'c')
     h = st.number_input('height: ',key = 'd')
     if st.button('calculate',key = 'xyz'):
         st.write(f'the kinetic energy is {ma*10*h}')
